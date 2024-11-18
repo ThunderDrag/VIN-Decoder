@@ -1,0 +1,4 @@
+No support for older maruti cars
+Volkswagen and Skoda share the same manufacturer code MEX after 2021
+Ford provides month of manufacting but its complicated to code/will need its own function
+Provide other info like plant, serial etc
