@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian VIN Decoder</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Indian VIN Decoder</h1>
+    <input type="text" id="vin-input" class="vin-input" placeholder="Enter VIN number here">
+    <p id="warning-message"></p>
+    <button id="submit-btn" class="submit-btn">Submit</button>
+    
+
+    <p id="entered_vin"></p>
+    <div class="card-container">
+        <div class="card">
+            <div class="card-title">Manufacturer</div>
+            <div class="card-value" id="value-manufacturer">-</div>
+        </div>
+        <div class="card">
+            <div class="card-title">Manufacturing Year</div>
+            <div class="card-value" id="value-year">-</div>
+        </div>
+        <div class="card">
+            <div class="card-title">Manufacturing Month</div>
+            <div class="card-value" id="value-month">-</div>
+        </div>
+    </div>
+    <footer>
+        <p>
+            By using this tool, you agree to our <a href="disclaimer.html" style="color: #007BFF; text-decoration: underline;">Legal Disclaimer</a>.
+        </p>
+    </footer>    
+    <script src="script.js"></script>
+</body>
+</html>
